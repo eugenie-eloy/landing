@@ -1,0 +1,32 @@
+.card{
+	background: rgba(0,0,0,0);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: center;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 20%);
+    border-radius: 6px;
+    margin: 50px, 0px; /* un nombre = marge de tous les cotés*/
+    margin-bottom: 30px;
+
+}
+.card h3 {
+	font-weight: bold;
+}
+.card p {
+padding-left: 60px;
+margin-top: unset;
+}
+
+
+/*En ajoutant toutes les cards dans la <div class= card> on peut modifier le design
+de toutes les cards en même temps 
+on peut modifier un élément dans la card avec (pour l'image par exemple) :
+.card img {
+les nouvelles modif de l'image dans la card
+}
+Element utile pour les cards = flex-grow : 1; qui permet à une carte de prendre 
+la place disponible selon la taille de la fenêtre*/
+
+
